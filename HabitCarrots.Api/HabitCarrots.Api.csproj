@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0093ec4b-3c0b-4e0a-b4f6-45dacd21603f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HabitCarrots.Contracts\HabitCarrots.Contracts.csproj" />
+    <ProjectReference Include="..\HabitCarrots.Application\HabitCarrots.Application.csproj" />
+    <ProjectReference Include="..\HabitCarrots.Infrastructure\HabitCarrots.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
