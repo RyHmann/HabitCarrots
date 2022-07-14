@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HabitCarrots.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,7 @@ namespace HabitCarrots.Application.Services.Authentication
 {
     public record AuthenticationResult
     (
-        Guid Id,
-        string FirstName,
-        string LastName,
-        string Email,
+        User user,
         string Token
     );
 }

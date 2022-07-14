@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HabitCarrots.Application.Common.Interfaces.Authentication
+namespace HabitCarrots.Application.Persistence
 {
-    public interface IJwtTokenGenerators
+    public interface IUserRepository
     {
-        string GenerateToken(User user);
+        User? GetUserByEmail(string email);
+        void Add(User user);
     }
 }
