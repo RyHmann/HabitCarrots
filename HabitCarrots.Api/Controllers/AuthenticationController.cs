@@ -1,4 +1,5 @@
-﻿using HabitCarrots.Application.Services.Authentication;
+﻿using HabitCarrots.Api.Filters;
+using HabitCarrots.Application.Services.Authentication;
 using HabitCarrots.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,6 +7,7 @@ namespace HabitCarrots.Api.Controllers
 {
     [ApiController]
     [Route("auth")]
+    
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
