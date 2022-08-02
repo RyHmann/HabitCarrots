@@ -8,3 +8,13 @@ Building a new positive habit is one of the most difficult things you can undert
 This application is very much in progress at the moment. Currently, we are in the stage of setting up the various projects and scaffolding up the foundational features.
 
 ## Future Plans
+
+- [ ] User Accounts
+  - [ ] Registration
+  - [ ] Login / Logout
+  - [ ] Authorization
+- [ ]  Habit Business Objects
+  - [ ]  User Habits
+  - [ ]  User Events
+  - [ ]  User Bank
+- [ ] Blazor WASM Front End
